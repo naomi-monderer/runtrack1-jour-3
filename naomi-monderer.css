@@ -1,0 +1,65 @@
+
+    @font-face{
+        font-family: 'after_shokregular';
+        src: url('After_Shok-webfont.eot');
+        src: url('After_Shok-webfont.eot?#iefix') format('embedded-opentype'),
+             url('After_Shok-webfont.woff2') format('woff2'),
+             url('After_Shok-webfont.woff') format('woff'),
+             url('After_Shok-webfont.ttf') format('truetype'),
+             url('After_Shok-webfont.svg#after_shokregular') format('svg');
+        font-family: 'germaniaone-regular';
+        src: url('GermaniaOne-Regular.ttf');
+
+    }
+
+body {background-image:url("crocs.png");
+
+    
+}
+h1{
+    font-family:after_shokregular;
+    font-size:6em;
+    text-align:center;
+    color:rgb(233, 0, 0);
+    
+}
+h2 {
+
+        text-align: center;
+        color:rgb(255, 110, 134); 
+        font-size: 3em;
+        font-family:after_shokregular, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+    }
+h3 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size:1.5em;
+    color:rgb(255, 110, 134);
+
+}
+
+
+ul li {
+        
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        text-align:left;
+        font-family:futura; 
+        font-size:1.5em;
+        list-style: none;
+        color:rgb(233, 0, 0);
+        font-family: germaniaone-regular,impact;
+}
+
+
+p {
+    display: flex;
+    font-size:2em;    
+    text-align :right;
+    font-family:impact;
+    }
+
+    

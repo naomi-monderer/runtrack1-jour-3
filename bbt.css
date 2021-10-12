@@ -1,0 +1,49 @@
+
+
+body {
+    background: rgb(253, 51, 51);
+    background-image: url("ongle2.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment: fixed
+  
+}
+
+.logo {
+    display:flex;
+    place-items:right;
+    justify-content: right;
+    
+ 
+}
+
+h1
+{
+    text-align:center;
+    font-family:"impact";
+    font-size: 12em;
+
+}
+
+
+.team {
+    display:flex;
+    place-items:center;
+    flex-direction:column;
+    justify-content:center;
+    text-align:left;
+    font-family:Helvetica;
+    font-size: 1em
+    
+}
+
+
+.personnes{
+    display:flex;
+    text-align:left;
+    place-items: center;
+    flex-direction:column;
+    font-family:impact;
+    font-size: 1.3em;
+    
+}
